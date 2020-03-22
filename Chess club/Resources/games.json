@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "white": "Rogier",
+        "black": "Jeroen",
+        "winner": "Rogier"
+    },
+    {
+        "id": 2,
+        "white": "Rogier",
+        "black": "Jeroen",
+        "winner": "Jeroen"
+    }
+]
