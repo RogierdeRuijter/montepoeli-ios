@@ -13,7 +13,7 @@ struct Rules: View {
         List {
             ForEach(ruleData) { rule in
                 Text(rule.description)
-            }
+            }.padding()
         }
     }
 }

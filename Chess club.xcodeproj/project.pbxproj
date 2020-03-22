@@ -480,6 +480,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Chess club/Preview Content\"";
+				DEVELOPMENT_TEAM = A6U7RF4D7F;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Chess club/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -499,6 +500,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Chess club/Preview Content\"";
+				DEVELOPMENT_TEAM = A6U7RF4D7F;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Chess club/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (

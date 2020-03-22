@@ -21,7 +21,7 @@ struct ContentView: View {
                     }
                 }
                 .tag(0)
-            
+
             Rules()
                 .tabItem {
                     VStack {
@@ -30,7 +30,22 @@ struct ContentView: View {
                     }
                 }
                 .tag(1)
-        }
+        }.gesture(DragGesture().onChanged({ (value) in
+                if value.translation.width > 0 {
+                    
+                    if value.translation.width > 30 {
+                        self.selection = 1
+                    }
+                }
+                else {
+                    if value.translation.width < -30 {
+                        self.selection = 0
+                    }
+                    else{
+                    }
+                }
+            })
+        )
     }
 }
 

@@ -29,7 +29,9 @@ struct Games: View {
                     Text(game.black)
                     Spacer()
                     Text(game.winner)
-                }.padding()
+                }
+                .padding()
+                
             }
         }
     }
