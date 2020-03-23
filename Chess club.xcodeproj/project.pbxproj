@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040516682428BB5D00DA44DE /* RestEssentials in Frameworks */ = {isa = PBXBuildFile; productRef = 040516672428BB5D00DA44DE /* RestEssentials */; };
 		04CDB1F52427B40600E97EC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CDB1F42427B40600E97EC3 /* AppDelegate.swift */; };
 		04CDB1F72427B40600E97EC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CDB1F62427B40600E97EC3 /* SceneDelegate.swift */; };
 		04CDB1F92427B40600E97EC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CDB1F82427B40600E97EC3 /* ContentView.swift */; };
@@ -70,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040516682428BB5D00DA44DE /* RestEssentials in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +191,9 @@
 			dependencies = (
 			);
 			name = "Chess club";
+			packageProductDependencies = (
+				040516672428BB5D00DA44DE /* RestEssentials */,
+			);
 			productName = "Chess club";
 			productReference = 04CDB1F12427B40600E97EC3 /* Chess club.app */;
 			productType = "com.apple.product-type.application";
@@ -261,6 +266,9 @@
 				Base,
 			);
 			mainGroup = 04CDB1E82427B40600E97EC3;
+			packageReferences = (
+				040516662428BB5D00DA44DE /* XCRemoteSwiftPackageReference "RestEssentials" */,
+			);
 			productRefGroup = 04CDB1F22427B40600E97EC3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -634,6 +642,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		040516662428BB5D00DA44DE /* XCRemoteSwiftPackageReference "RestEssentials" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:sean7512/RestEssentials.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		040516672428BB5D00DA44DE /* RestEssentials */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 040516662428BB5D00DA44DE /* XCRemoteSwiftPackageReference "RestEssentials" */;
+			productName = RestEssentials;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 04CDB1E92427B40600E97EC3 /* Project object */;
 }
