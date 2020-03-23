@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		040516682428BB5D00DA44DE /* RestEssentials in Frameworks */ = {isa = PBXBuildFile; productRef = 040516672428BB5D00DA44DE /* RestEssentials */; };
+		0405166A2428BC9100DA44DE /* ApiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040516692428BC9100DA44DE /* ApiData.swift */; };
 		04CDB1F52427B40600E97EC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CDB1F42427B40600E97EC3 /* AppDelegate.swift */; };
 		04CDB1F72427B40600E97EC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CDB1F62427B40600E97EC3 /* SceneDelegate.swift */; };
 		04CDB1F92427B40600E97EC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CDB1F82427B40600E97EC3 /* ContentView.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040516692428BC9100DA44DE /* ApiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiData.swift; sourceTree = "<group>"; };
 		04CDB1F12427B40600E97EC3 /* Chess club.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chess club.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CDB1F42427B40600E97EC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04CDB1F62427B40600E97EC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 				04CDB2302427B7E000E97EC3 /* Game.swift */,
 				04CDB2342427B8C400E97EC3 /* Data.swift */,
 				04CDB2322427B86400E97EC3 /* Rule.swift */,
+				040516692428BC9100DA44DE /* ApiData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 			files = (
 				04CDB1F52427B40600E97EC3 /* AppDelegate.swift in Sources */,
 				04CDB2312427B7E000E97EC3 /* Game.swift in Sources */,
+				0405166A2428BC9100DA44DE /* ApiData.swift in Sources */,
 				04CDB1F72427B40600E97EC3 /* SceneDelegate.swift in Sources */,
 				04CDB1F92427B40600E97EC3 /* ContentView.swift in Sources */,
 				04CDB2252427B5D800E97EC3 /* Games.swift in Sources */,

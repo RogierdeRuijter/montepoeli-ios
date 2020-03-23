@@ -7,7 +7,6 @@
 //
 
 import SwiftUI
-//import RestEssentials
 
 struct HttpBinResponse: Codable {
     let url: String
@@ -53,22 +52,6 @@ struct ContentView: View {
         )
     }
 }
-
-// TODO: make this work
-//guard let rest = RestController.make(urlString: "http://httpbin.org/get") else {
-//    print("Bad URL")
-//    return
-//}
-//
-//rest.get(HttpBinResponse.self) { result, httpResponse in
-//    do {
-//        let response = try result.value() // response is of type HttpBinResponse
-//        print(response.url) // "http://httpbin.org/get"
-//    } catch {
-//        print("Error performing GET: \(error)")
-//    }
-//}
-
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
