@@ -7,14 +7,27 @@
 //
 
 import UIKit
+import RestEssentials
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        guard let rest = RestController.make(urlString: "https://localhost:3000/api/game") else {
+               print("Bad URL")
+               return true
+           }
+        
+        // TODO: make this work
+        rest.get(HttpBinResponse.self) { result, httpResponse in
+            do {
+                let response = try result.value() // response is of type HttpBinResponse
+                print(response.url) // "http://httpbin.org/get"
+            } catch {
+                print("Error performing GET: \(error)")
+            }
+        }
         return true
     }
 
