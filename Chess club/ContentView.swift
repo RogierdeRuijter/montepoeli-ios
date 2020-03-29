@@ -8,10 +8,6 @@
 
 import SwiftUI
 
-struct HttpBinResponse: Codable {
-    let url: String
-}
-
 struct ContentView: View {
     @State private var selection = 0
  

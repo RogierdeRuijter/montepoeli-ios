@@ -10,7 +10,7 @@ import SwiftUI
 import CoreLocation
 
 struct Game: Hashable, Codable, Identifiable {
-    var id: Int
+    var id: String
     var white: String
     var black: String
     var winner: String

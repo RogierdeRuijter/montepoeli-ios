@@ -1,12 +1,12 @@
 [
     {
-        "id": 1,
+        "id": "1",
         "white": "Rogier",
         "black": "Jeroen",
         "winner": "Rogier"
     },
     {
-        "id": 2,
+        "id": "2",
         "white": "Rogier",
         "black": "Jeroen",
         "winner": "Jeroen"
